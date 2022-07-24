@@ -8,4 +8,10 @@ it('Renders Navbar', () => {
   const projects = screen.getByText(/Projects/i);
   const techStacks = screen.getByText(/Tech Stacks/i);
   const contact = screen.getByText(/Contact/i);
+
+  expect(aboutMe).toBeInTheDocument();
+  expect(experience).toBeInTheDocument();
+  expect(projects).toBeInTheDocument();
+  expect(techStacks).toBeInTheDocument();
+  expect(contact).toBeInTheDocument();
 });
