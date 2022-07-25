@@ -1,0 +1,9 @@
+.welcome,
+.about-me,
+.experience,
+.projects,
+.tech-stacks,
+.contact {
+  min-height: 60vh;
+  text-align: center;
+}
