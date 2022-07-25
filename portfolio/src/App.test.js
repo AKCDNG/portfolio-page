@@ -3,7 +3,7 @@ import App from './App';
 
 it('renders heading on page', () => {
   render(<App />);
-  const linkElement = screen.getByTestId('heading-portfolio');
+  const linkElement = screen.getByTestId('welcome-header');
   expect(linkElement).toHaveTextContent('Welcome To My Personal Portfolio!');
 });
 
