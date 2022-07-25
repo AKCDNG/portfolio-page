@@ -1,5 +1,5 @@
 const AboutMe = () => {
-  return <h1 className='about-me-heading' data-testid='about-me-header'>About Me</h1>;
+  return <h2 className='about-me-heading' data-testid='about-me-header'>About Me</h2>;
 };
 
 export default AboutMe;

@@ -1,5 +1,5 @@
 const Projects = () => {
-  return <h1 className='projects-heading' data-testid='projects-header'>Projects</h1>;
+  return <h2 className='projects-heading' data-testid='projects-header'>Projects</h2>;
 };
 
 export default Projects;
