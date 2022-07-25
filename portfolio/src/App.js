@@ -13,7 +13,7 @@ function App() {
         Welcome To My Personal Portfolio!
       </h1>
       <Navbar />
-      <section className="AboutMe">
+      <section className="about-me">
         <AboutMe />
       </section>
       <section className="experience">
