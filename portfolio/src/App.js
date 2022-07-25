@@ -1,5 +1,6 @@
 import './index.css';
 import Navbar from './components/Navbar';
+import Welcome from './components/content/Welcome'
 import AboutMe from './components/content/AboutMe';
 import Experience from './components/content/Experience';
 import Projects from './components/content/Projects';
@@ -9,23 +10,23 @@ import Contact from './components/content/Contact';
 function App() {
   return (
     <div className='App'>
-      <h1 data-testid='heading-portfolio' className='heading-portfolio'>
-        Welcome To My Personal Portfolio!
-      </h1>
       <Navbar />
-      <section className="about-me">
+      <section className="welcome">
+        <Welcome />
+      </section>
+      <section className='about-me'>
         <AboutMe />
       </section>
-      <section className="experience">
+      <section className='experience'>
         <Experience />
       </section>
-      <section className="projects">
+      <section className='projects'>
         <Projects />
       </section>
-      <section className="tech-stacks">
+      <section className='tech-stacks'>
         <TechStacks />
       </section>
-      <section className="contact">
+      <section className='contact'>
         <Contact />
       </section>
     </div>
