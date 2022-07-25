@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="navbar" data-testid="navbar">
       About Me
       Experience
       Projects
