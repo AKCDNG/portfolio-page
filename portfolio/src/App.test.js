@@ -10,15 +10,7 @@ it('renders heading on page', () => {
 it('renders NavBar on page', () => {
   render(<App />);
 
-  const aboutMe = screen.getByText(/About Me/i);
-  const experience = screen.getByText(/Experience/i);
-  const projects = screen.getByText(/Projects/i);
-  const techStacks = screen.getByText(/Tech Stacks/i);
-  const contact = screen.getByText(/Contact/i);
+  const navbar = screen.getByTestId('navbar');
 
-  expect(aboutMe).toBeInTheDocument();
-  expect(experience).toBeInTheDocument();
-  expect(projects).toBeInTheDocument();
-  expect(techStacks).toBeInTheDocument();
-  expect(contact).toBeInTheDocument();
+  expect(navbar).toBeInTheDocument();
 })
