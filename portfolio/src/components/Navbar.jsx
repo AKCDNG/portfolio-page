@@ -19,17 +19,17 @@ const Navbar = () => {
           {links.map((link) => {
             return (
               <a
-                className='navbar-text'
-                href={link.url}
-                key={link.id}
-                onClick={handleClick}>
+              className='navbar-text'
+              href={link.url}
+              key={link.id}
+              onClick={handleClick}>
                 {link.text}
               </a>
             );
           })}
-          <div className='navbar-title'>My Portfolio</div>
         </div>
       </div>
+          <div className='navbar-title'>My Portfolio</div>
     </nav>
   );
 };
