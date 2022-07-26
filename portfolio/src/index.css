@@ -4,7 +4,6 @@ html {
 
 .App {
   margin: -8px;
-
 }
 
 .navbar {
@@ -14,8 +13,8 @@ html {
   height: 60px;
   left: 0px;
   top: 0px;
-  
-  background: #463F3A;
+
+  background: #463f3a;
 }
 
 .navbar-links {
@@ -30,7 +29,25 @@ html {
   top: 10px;
 }
 
+.navbar-title {
+  position: absolute;
+  width: 168px;
+  height: 37px;
+  left: 1278px;
+  top: 1px;
+
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height */
+
+  color: #f4f3ee;
+}
+
 .navbar-text {
+  text-decoration: none;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
@@ -39,9 +56,11 @@ html {
   /* identical to box height */
 
   text-align: center;
+  color: #f4f3ee;
+}
 
-  color: #F4F3EE;
-  text-decoration: none;
+.navbar-text:hover {
+  text-decoration: underline;
 }
 
 .welcome,
@@ -56,7 +75,7 @@ html {
 
 /* Welcome Section */
 .welcome {
-  background: #8A817C;
+  background: #8a817c;
 }
 
 .welcome-header {
@@ -65,26 +84,24 @@ html {
   height: 37px;
   left: 489px;
   top: 90px;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #F4F3EE;
-  
-  
+
+  color: #f4f3ee;
 }
 
 /* About Me Section */
-.about-me {  
-  background: #E0AFA0;
+.about-me {
+  background: #e0afa0;
 }
 
 .about-me-heading {
@@ -93,25 +110,24 @@ html {
   height: 37px;
   left: 683px;
   top: 880px;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #463F3A;
-  
+
+  color: #463f3a;
 }
 
 /* Experience Section */
 .experience {
-  background: #BCB8B1;
+  background: #bcb8b1;
 }
 
 .experience-heading {
@@ -120,25 +136,24 @@ html {
   height: 37px;
   left: 672px;
   top: 1900;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #463F3A;
-  
+
+  color: #463f3a;
 }
 
 /* Projects Section */
 .projects {
-  background: #8A817C;
+  background: #8a817c;
 }
 
 .projects-heading {
@@ -147,24 +162,24 @@ html {
   height: 37px;
   left: 695px;
   top: 2500px;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #F4F3EE;
+
+  color: #f4f3ee;
 }
 
 /* Tech Stacks Section */
 .tech-stacks {
-  background: #E0AFA0;
+  background: #e0afa0;
 }
 
 .tech-stacks-heading {
@@ -173,24 +188,24 @@ html {
   height: 37px;
   left: 666px;
   top: 3310px;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #463F3A;
+
+  color: #463f3a;
 }
 
 /* Contact Section */
 .contact {
-  background: #BCB8B1;
+  background: #bcb8b1;
 }
 
 .contact-heading {
@@ -199,20 +214,19 @@ html {
   height: 37px;
   left: 696px;
   top: 4115px;
-  
+
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
-  
-  color: #463F3A;
-  
+
+  color: #463f3a;
 }
 
 .sticky {
