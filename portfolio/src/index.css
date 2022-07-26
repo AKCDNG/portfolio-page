@@ -5,7 +5,6 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 html {
@@ -63,7 +62,6 @@ html {
   display: flex;
   justify-content: center;
   min-height: 810px;
-  min-width: 1512px;
 }
 
 /* Welcome Section */
