@@ -27,6 +27,7 @@ const Navbar = () => {
               </a>
             );
           })}
+          <div className="navbar-title">My Portfolio</div>
         </div>
       </div>
     </nav>
