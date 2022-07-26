@@ -8,9 +8,10 @@ html {
 }
 
 .navbar {
-  position: absolute;
+  z-index: 1;
+  position: fixed;
   width: 1512px;
-  height: 88px;
+  height: 60px;
   left: 0px;
   top: 0px;
   
@@ -26,14 +27,14 @@ html {
 
   position: absolute;
   left: 64px;
-  top: 26px;
+  top: 10px;
 }
 
 .navbar-text {
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 24px;
   line-height: 37px;
   /* identical to box height */
 
@@ -49,7 +50,7 @@ html {
 .projects,
 .tech-stacks,
 .contact {
-  min-height: 995px;
+  min-height: 810px;
   text-align: center;
 }
 
@@ -63,7 +64,7 @@ html {
   width: 535px;
   height: 37px;
   left: 489px;
-  top: 171px;
+  top: 90px;
   
   font-family: 'Helvetica';
   font-style: normal;
@@ -77,6 +78,8 @@ html {
   text-align: center;
   
   color: #F4F3EE;
+  
+  
 }
 
 /* About Me Section */
@@ -89,7 +92,7 @@ html {
   width: 146px;
   height: 37px;
   left: 683px;
-  top: 1144px;
+  top: 880px;
   
   font-family: 'Helvetica';
   font-style: normal;
@@ -116,7 +119,7 @@ html {
   width: 171px;
   height: 37px;
   left: 672px;
-  top: 2133px;
+  top: 1900;
   
   font-family: 'Helvetica';
   font-style: normal;
@@ -143,7 +146,7 @@ html {
   width: 127px;
   height: 37px;
   left: 695px;
-  top: 3128px;
+  top: 2500px;
   
   font-family: 'Helvetica';
   font-style: normal;
@@ -169,7 +172,7 @@ html {
   width: 185px;
   height: 37px;
   left: 666px;
-  top: 4123px;
+  top: 3310px;
   
   font-family: 'Helvetica';
   font-style: normal;
@@ -195,7 +198,7 @@ html {
   width: 120px;
   height: 37px;
   left: 696px;
-  top: 5118px;
+  top: 4115px;
   
   font-family: 'Helvetica';
   font-style: normal;
