@@ -15,6 +15,7 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 40px;
   z-index: 1;
   height: 60px;
   background-color: #463f3a;
@@ -44,7 +45,7 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-left: 500px;
+  width: 550px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 300;
@@ -58,8 +59,9 @@ html {
 .projects,
 .tech-stacks,
 .contact {
+  display: flex;
+  justify-content: center;
   min-height: 810px;
-  text-align: center;
 }
 
 /* Welcome Section */
@@ -68,12 +70,9 @@ html {
 }
 
 .welcome-header {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 535px;
-  height: 37px;
-  left: 489px;
-  top: 90px;
-
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
@@ -94,22 +93,20 @@ html {
 }
 
 .about-me-heading {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 146px;
-  height: 37px;
-  left: 683px;
-  top: 880px;
-
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height */
 
   color: #463f3a;
 }
@@ -121,21 +118,19 @@ html {
 
 .experience-heading {
   position: absolute;
-  width: 171px;
-  height: 65px;
-  left: 672px;
-  top: 1900;
-
+  display: flex;
+  justify-content: center;
+  position: absolute;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
 
   color: #463f3a;
 }
@@ -146,22 +141,19 @@ html {
 }
 
 .projects-heading {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 127px;
-  height: 37px;
-  left: 695px;
-  top: 2500px;
-
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
 
   color: #f4f3ee;
 }
@@ -172,22 +164,19 @@ html {
 }
 
 .tech-stacks-heading {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 185px;
-  height: 37px;
-  left: 666px;
-  top: 3310px;
-
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
 
   color: #463f3a;
 }
@@ -198,22 +187,19 @@ html {
 }
 
 .contact-heading {
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 120px;
-  height: 37px;
-  left: 696px;
-  top: 4115px;
-
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
 
-  display: flex;
-  align-items: center;
-  text-align: center;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
 
   color: #463f3a;
 }
