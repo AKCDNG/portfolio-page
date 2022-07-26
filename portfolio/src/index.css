@@ -1,27 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
-.App {
-  margin: -8px;
-}
-
 .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   z-index: 1;
-  position: fixed;
-  width: 1512px;
   height: 60px;
-  left: 0px;
-  top: 0px;
 
-  background: #463f3a;
+  background-color: #463f3a;
 }
 
 .navbar-links {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+  margin: 0%;
   padding: 0px;
+  display: flex;
   gap: 35px;
 
   position: absolute;
@@ -30,11 +33,10 @@ html {
 }
 
 .navbar-title {
-  position: absolute;
-  width: 168px;
-  height: 37px;
-  left: 1278px;
-  top: 1px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 510px;
 
   font-family: 'Helvetica';
   font-style: normal;
@@ -133,7 +135,7 @@ html {
 .experience-heading {
   position: absolute;
   width: 171px;
-  height: 37px;
+  height: 65px;
   left: 672px;
   top: 1900;
 
