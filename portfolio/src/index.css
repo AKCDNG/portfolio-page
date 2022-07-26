@@ -5,6 +5,7 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 html {
@@ -45,7 +46,7 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 550px;
+  margin-right: 50px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 300;
@@ -62,6 +63,7 @@ html {
   display: flex;
   justify-content: center;
   min-height: 810px;
+  min-width: 1512px;
 }
 
 /* Welcome Section */
