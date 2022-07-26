@@ -9,7 +9,7 @@ const Navbar = () => {
 
     window.scrollTo({
       left: 0,
-      top: location - 88,
+      top: location - 60,
     });
   };
   return (
