@@ -13,18 +13,19 @@ html {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
   z-index: 1;
+  position: absolute;
+  width: 1512px;
   height: 60px;
 
-  background-color: #463f3a;
+  background: #463f3a;
 }
 
 .navbar-links {
-  margin: 0%;
-  padding: 0px;
   display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
   gap: 35px;
 
   position: absolute;
@@ -33,10 +34,11 @@ html {
 }
 
 .navbar-title {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  width: 510px;
+  position: absolute;
+  width: 168px;
+  height: 37px;
+  left: 1278px;
+  top: 1px;
 
   font-family: 'Helvetica';
   font-style: normal;
