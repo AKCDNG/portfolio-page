@@ -1,7 +1,48 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .App {
   margin: -8px;
 
 }
+
+.navbar {
+  position: absolute;
+  width: 1512px;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  
+  background: #463F3A;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 35px;
+
+  position: absolute;
+  left: 64px;
+  top: 26px;
+}
+
+.navbar-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 37px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #F4F3EE;
+  text-decoration: none;
+}
+
 .welcome,
 .about-me,
 .experience,
@@ -171,3 +212,7 @@
   
 }
 
+.sticky {
+  position: sticky;
+  top: 0;
+}
