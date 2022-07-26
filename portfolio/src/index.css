@@ -1,9 +1,173 @@
+.App {
+  margin: -8px;
+
+}
 .welcome,
 .about-me,
 .experience,
 .projects,
 .tech-stacks,
 .contact {
-  min-height: 60vh;
+  min-height: 995px;
   text-align: center;
 }
+
+/* Welcome Section */
+.welcome {
+  background: #8A817C;
+}
+
+.welcome-header {
+  position: absolute;
+  width: 535px;
+  height: 37px;
+  left: 489px;
+  top: 171px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #F4F3EE;
+}
+
+/* About Me Section */
+.about-me {  
+  background: #E0AFA0;
+}
+
+.about-me-heading {
+  position: absolute;
+  width: 146px;
+  height: 37px;
+  left: 683px;
+  top: 1144px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #463F3A;
+  
+}
+
+/* Experience Section */
+.experience {
+  background: #BCB8B1;
+}
+
+.experience-heading {
+  position: absolute;
+  width: 171px;
+  height: 37px;
+  left: 672px;
+  top: 2133px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #463F3A;
+  
+}
+
+/* Projects Section */
+.projects {
+  background: #8A817C;
+}
+
+.projects-heading {
+  position: absolute;
+  width: 127px;
+  height: 37px;
+  left: 695px;
+  top: 3128px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #F4F3EE;
+}
+
+/* Tech Stacks Section */
+.tech-stacks {
+  background: #E0AFA0;
+}
+
+.tech-stacks-heading {
+  position: absolute;
+  width: 185px;
+  height: 37px;
+  left: 666px;
+  top: 4123px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #463F3A;
+}
+
+/* Contact Section */
+.contact {
+  background: #BCB8B1;
+}
+
+.contact-heading {
+  position: absolute;
+  width: 120px;
+  height: 37px;
+  left: 696px;
+  top: 5118px;
+  
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 37px;
+  /* identical to box height */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #463F3A;
+  
+}
+
