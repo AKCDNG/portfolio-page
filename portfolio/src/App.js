@@ -9,30 +9,28 @@ import Contact from './components/content/Contact';
 
 function App() {
   return (
-    <main id='welcome'>
-      <div className='App'>
-        <Navbar />
-        <section className='welcome'>
-          <Welcome />
-        </section>
-        <section className='about-me' id='about-me'>
-          <AboutMe />
-        </section>
-        <section className='experience' id='experience'>
-          <Experience />
-        </section>
-        <section className='projects' id='projects'>
-          <Projects />
-        </section>
-        <section className='tech-stacks' id='tech-stacks'>
-          <TechStacks />
-        </section>
-        <section className='contact' id='contact'>
-          <Contact />
-        </section>
-        <section className='rest'></section>
-      </div>
-    </main>
+    <div className='App'>
+      <Navbar />
+      <section className='welcome' id='welcome'>
+        <Welcome />
+      </section>
+      <section className='about-me' id='about-me'>
+        <AboutMe />
+      </section>
+      <section className='experience' id='experience'>
+        <Experience />
+      </section>
+      <section className='projects' id='projects'>
+        <Projects />
+      </section>
+      <section className='tech-stacks' id='tech-stacks'>
+        <TechStacks />
+      </section>
+      <section className='contact' id='contact'>
+        <Contact />
+      </section>
+      <section className='rest'></section>
+    </div>
   );
 }
 
