@@ -7,6 +7,7 @@ import Experience from './components/content/Experience';
 import Projects from './components/content/Projects';
 import TechStacks from './components/content/TechStacks';
 import Contact from './components/content/Contact';
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
         <section className='contact' id='contact'>
           <Contact />
         </section>
+        <Footer />
       </div>
     </div>
   );
