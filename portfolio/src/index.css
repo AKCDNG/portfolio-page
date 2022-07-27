@@ -66,7 +66,6 @@ html {
   background-color: #463f3a;
 }
 
-
 @media (max-width: 850px) {
   .navbar {
     display: none;
@@ -75,7 +74,6 @@ html {
   .mobile-navigation {
     display: flex;
     align-items: center;
-
   }
 
   .mobile-navigation .hamburger {
@@ -90,17 +88,16 @@ html {
     align-items: center;
     position: relative;
     margin-right: 50px;
-
   }
 
   .mobile-navigation .navbar-links {
     display: flex;
     flex-direction: column;
-    position:absolute;
+    position: absolute;
     top: 7.1px;
     left: 0;
     width: 100%;
-    background-color:#463f3a;
+    background-color: #463f3a;
     opacity: 0.9;
   }
   .mobile-navigation .navbar-text {
@@ -144,7 +141,7 @@ html {
 
 /* About Me Section */
 .about-me {
-  background: #BCB8B1;
+  background: #bcb8b1;
 }
 
 .about-me-heading {
@@ -168,7 +165,7 @@ html {
 
 /* Experience Section */
 .experience {
-  background: #8A817C;
+  background: #8a817c;
 }
 
 .experience-heading {
@@ -187,12 +184,12 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #F4F3EE;
+  color: #f4f3ee;
 }
 
 /* Projects Section */
 .projects {
-  background: #BCB8B1;
+  background: #bcb8b1;
 }
 
 .projects-heading {
@@ -210,12 +207,12 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #463F3A;
+  color: #463f3a;
 }
 
 /* Tech Stacks Section */
 .tech-stacks {
-  background: #8A817C;
+  background: #8a817c;
 }
 
 .tech-stacks-heading {
@@ -233,7 +230,7 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #F4F3EE;
+  color: #f4f3ee;
 }
 
 /* Contact Section */
@@ -262,4 +259,30 @@ html {
 .sticky {
   position: sticky;
   top: 0;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0afa0;
+  height: 65px;
+}
+
+.footer .footer-text {
+  box-shadow: inset 0 0 0 0 #54b3d6;
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: #463f3a;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.footer .footer-text:hover {
+  box-shadow: inset 100px 0 0 0 #463f3a;
+  color: #E0AFA0;
 }
