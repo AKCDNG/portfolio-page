@@ -33,3 +33,10 @@ it('renders sections on page', () => {
   const contact = screen.getByTestId('contact-header');
   expect(contact).toBeInTheDocument();
 });
+
+it('renders footer on page', () => {
+  render(<App />);
+
+  const footer = screen.getByTestId('footer');
+  expect(footer).toBeInTheDocument();
+});
