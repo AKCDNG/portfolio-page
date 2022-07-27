@@ -1,5 +1,6 @@
 import './index.css';
 import Navbar from './components/Navbar';
+import MobileNavigation from './components/mobileNavigation';
 import Welcome from './components/content/Welcome';
 import AboutMe from './components/content/AboutMe';
 import Experience from './components/content/Experience';
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className='App'>
       <Navbar />
+      <MobileNavigation />
       <div id='container'>
         <section className='welcome' id='welcome'>
           <Welcome />
