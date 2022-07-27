@@ -11,6 +11,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -142,7 +144,7 @@ html {
 
 /* About Me Section */
 .about-me {
-  background: #e0afa0;
+  background: #BCB8B1;
 }
 
 .about-me-heading {
@@ -166,7 +168,7 @@ html {
 
 /* Experience Section */
 .experience {
-  background: #bcb8b1;
+  background: #8A817C;
 }
 
 .experience-heading {
@@ -185,12 +187,12 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #463f3a;
+  color: #F4F3EE;
 }
 
 /* Projects Section */
 .projects {
-  background: #8a817c;
+  background: #BCB8B1;
 }
 
 .projects-heading {
@@ -208,12 +210,12 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #f4f3ee;
+  color: #463F3A;
 }
 
 /* Tech Stacks Section */
 .tech-stacks {
-  background: #e0afa0;
+  background: #8A817C;
 }
 
 .tech-stacks-heading {
@@ -231,7 +233,7 @@ html {
   font-weight: 700;
   font-size: 32px;
 
-  color: #463f3a;
+  color: #F4F3EE;
 }
 
 /* Contact Section */
