@@ -32,7 +32,6 @@ function App() {
         <section className='contact' id='contact'>
           <Contact />
         </section>
-        <section className='rest'></section>
       </div>
     </div>
   );
