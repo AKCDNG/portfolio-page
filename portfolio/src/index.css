@@ -45,12 +45,65 @@ html {
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  position: relative;
   margin-right: 50px;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   color: #f4f3ee;
+}
+
+.mobile-navigation {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  z-index: 1;
+  height: 60px;
+  background-color: #463f3a;
+}
+
+
+@media (max-width: 850px) {
+  .navbar {
+    display: none;
+  }
+
+  .mobile-navigation {
+    display: flex;
+    align-items: center;
+
+  }
+
+  .mobile-navigation .hamburger {
+    cursor: pointer;
+    position: relative;
+    margin-left: 10px;
+  }
+
+  .mobile-navigation .navbar-title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+    margin-right: 50px;
+
+  }
+
+  .mobile-navigation .navbar-links {
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    top: 7.1px;
+    left: 0;
+    width: 100%;
+    background-color:#463f3a;
+    opacity: 0.9;
+  }
+  .mobile-navigation .navbar-text {
+    padding-left: 20px;
+  }
 }
 
 .welcome,
