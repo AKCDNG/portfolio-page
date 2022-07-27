@@ -1,6 +1,6 @@
 import React from 'react';
 import {motion} from 'framer-motion'
-import { links } from '../data';
+import { links } from '../../data';
 import { AiOutlineMenu } from 'react-icons/ai';
 import {AiOutlineClose} from 'react-icons/ai'
 import { useState } from 'react';

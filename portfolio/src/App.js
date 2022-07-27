@@ -1,6 +1,6 @@
 import './index.css';
-import Navbar from './components/Navbar';
-import MobileNavigation from './components/mobileNavigation';
+import Navbar from './components/navigation/Navbar';
+import MobileNavigation from './components/navigation/mobileNavigation';
 import Welcome from './components/content/Welcome';
 import AboutMe from './components/content/AboutMe';
 import Experience from './components/content/Experience';
