@@ -12,9 +12,9 @@ const MobileNavigation = () => {
   const animateFrom = {opacity: 0, y: -40}
   const animateTo = {opacity: 1, y: 0}
 
-  const hamburgerIcon = <AiOutlineMenu className='hamburger' size='45px' color='white' onClick={() => setOpen(!open)}/>
+  const hamburgerIcon = <AiOutlineMenu className='hamburger' size='45px' color='#F4F3EE' onClick={() => setOpen(!open)}/>
 
-  const closeIcon = <AiOutlineClose className='hamburger' size='45px' color='white' onClick={() => setOpen(!open)}/>
+  const closeIcon = <AiOutlineClose className='hamburger' size='45px' color='#F4F3EE' onClick={() => setOpen(!open)}/>
 
   const handleClick = (e) => {
     e.preventDefault();
