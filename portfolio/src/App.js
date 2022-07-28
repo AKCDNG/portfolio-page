@@ -7,13 +7,15 @@ import Experience from './components/content/Experience';
 import Projects from './components/content/Projects';
 import TechStacks from './components/content/TechStacks';
 import Contact from './components/content/Contact';
-import Footer from './components/footer/footer'
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className='App'>
-      <Navbar />
-      <MobileNavigation />
+      <header>
+        <Navbar />
+        <MobileNavigation />
+      </header>
       <div id='container'>
         <section className='welcome' id='welcome'>
           <Welcome />

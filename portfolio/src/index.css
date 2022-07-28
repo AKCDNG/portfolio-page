@@ -103,6 +103,13 @@ html {
   .mobile-navigation .navbar-text {
     padding-left: 20px;
   }
+
+  .welcome-para-text {
+    flex-direction: column;
+  }
+  .welcome-image {
+    display: none;
+  }
 }
 
 .welcome,
@@ -119,24 +126,45 @@ html {
 /* Welcome Section */
 .welcome {
   background: #8a817c;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.welcome-para-text {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .welcome-header {
-  display: flex;
-  justify-content: center;
-  position: absolute;
+  position: relative;
+  height: 120px;
+  align-items: center;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
   line-height: 37px;
-  /* identical to box height */
+  color: #F4F3EE;
+}
 
-  display: flex;
-  align-items: center;
-  text-align: center;
-
+.welcome-text {
+  font-family: 'Helvetica';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
   color: #f4f3ee;
+}
+
+.welcome-image {
+  width: 400px;
+  border-radius: 10%;
+  margin-left: 100px;
 }
 
 /* About Me Section */
@@ -284,5 +312,5 @@ html {
 
 .footer .footer-text:hover {
   box-shadow: inset 100px 0 0 0 #463f3a;
-  color: #E0AFA0;
+  color: #e0afa0;
 }
