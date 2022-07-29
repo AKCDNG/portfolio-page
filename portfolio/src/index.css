@@ -175,7 +175,7 @@ html {
 .about-me-heading {
   display: flex;
   justify-content: center;
-  position: absolute;
+  position: relative;
   font-family: 'Helvetica';
   font-style: normal;
   font-weight: 700;
